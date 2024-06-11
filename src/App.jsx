@@ -1,11 +1,15 @@
 import React from 'react'
 import "./styles/App.css"
-import Content from './components/Content'
+import ContentSuperHeroes from './components/Superheroes'
+import ContentVilians from './components/Vilians'
+
+
 
 function App() {
   return (
     <>
-    <Content />
+    <ContentSuperHeroes />
+    <ContentVilians />
     </>
   )
 }
